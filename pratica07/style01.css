@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(89, 221, 89);
+    color: white;
+    margin: 0px 0px 0px 0px;
+    height: auto;
+    top: auto;
+}
+
+h1 {
+    font-size: 100px;
+    margin: auto;
+    padding: 0px;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.445);
+
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgba(128, 214, 147, 0.692),rgba(32, 88, 44, 0.692));
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.493);
+    padding: 20px;
+    text-align: center;
+}
+
+
+.img {
+    display: inline-block;
+}
+
+.img>img {
+    height: 30px;
+    width: 30px;
+}
+
+.img>a {
+    display: none;
+}
+
+.img:hover>a {
+    display: inline-block;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 30px;
+}
+
+a:hover {
+    background-color: rgba(32, 88, 44, 0.692);
+    padding: 4px;
+    width: 200px;
+    border-radius: 30px 0px 30px 0px;
+    transition-duration: 1s;
+}
+
+main {
+    background-image: url(lugares/bra-g.jpg);
+    background-repeat: no-repeat;
+    margin: 30px 30px 30px 30px;
+    border-radius: 30px 0px 30px 0px;
+    max-width: 800px;
+    margin: auto;
+    
+}
+
+h2 {
+    text-align: center;
+    margin: auto;
+    color: rgb(46, 128, 64);
+}
+
+p {
+    color: rgb(46, 128, 64);
+    font-weight: bold;
+}
+
+article {
+    background-color: rgba(255, 255, 255, 0.521);
+    padding: 10px;
+    font-size: 20px;
+    text-align: justify;
+    margin: 60px 50px 60px 50px;
+    border-radius: 30px 0px 30px 0px;
+    box-shadow: 3x 3px 7px rgb(0, 0, 0) ;
+
+}
+
+aside {
+    background-color: rgb(46, 128, 64);
+    border-radius: 30px 0px 30px 0px;
+    padding: 10px;
+}
+
+
+footer {
+    background-color: rgb(46, 128, 64);
+    color: white;
+    text-align: center;
+    padding: 5px;
+
+}
+
+footer p {
+    color: white;
+    font-size: 2em;
+}
+
+footer > #insta {
+    color: white;
+    font-size: 1em;
+}
