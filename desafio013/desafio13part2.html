@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 400px;
+            border-collapse: collapse;
+        }
+
+        tr, td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .span {
+            background-color: brown;
+            color: white;
+            font-weight: bolt;
+        }
+
+        .span:hover {
+            background-color: rgb(201, 198, 16);
+            color: white;
+            font-weight: bolt;
+        }
+
+        td {
+            background-color: dimgrey;
+            color: white;
+            font-weight: bolt;
+        }
+
+        td:hover {
+            background-color:  rgb(201, 198, 16);
+            color: white;
+            font-weight: bolt;
+        }
+
+
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td class="span" colspan="4">A</td>
+            <td class="span" rowspan="4">B</td>
+        </tr>
+        <tr>
+            <td class="span" rowspan="4">C</td>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+        <tr>
+            <td>G</td>
+            <td>H</td>
+            <td>I</td>
+        </tr>
+        <tr>
+            <td>J</td>
+            <td>K</td>
+            <td>L</td>
+        </tr>
+        <tr>
+            <td class="span" colspan="4">N</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
