@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 600px;
+            border-collapse: collapse;
+            box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.623);
+        }
+
+        th,td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center ;
+        }
+
+        .nav {
+            background-image: linear-gradient(to left, rgb(110, 110, 110),rgb(204, 204, 204));
+        }
+
+        .sexF {
+            background-image: linear-gradient(to left, rgb(255, 99, 216),rgb(255, 186, 238));
+        }
+
+        .sexM {
+            background-image: linear-gradient(to left, rgb(0, 89, 255),rgb(131, 174, 255));
+        }
+
+        .namF {
+            background-color: rgb(255, 186, 238);
+        }
+
+        .namF:hover {
+            background-image: linear-gradient(to left, rgb(255, 186, 238), rgb(255, 99, 216));
+
+        }
+
+        .namM {
+            background-color: rgb(131, 174, 255);
+        }
+
+        .namM:hover {
+            background-image: linear-gradient(to left, rgb(131, 174, 255),rgb(0, 89, 255));
+            transition-duration: 1s;
+        }
+
+        tr {
+            background-color: rgb(179, 179, 179);
+            color: rgb(0, 0, 0);
+
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr class="nav">
+                <th scope="col">Grupo</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th class="sexF" rowspan="3" scope="rowgroup">Mulheres</th>
+                <td class="namF">Ana</td>
+                <div>
+                    <td>HarryPotter</td>
+                    <td>Piratas</td>
+                    <td>Um amor</td>
+                </div>
+            </tr>
+            <tr>
+                <td class="namF">Amanda</td>
+                <div class="film">
+                    <td>StarWars</td>
+                    <td>Invocação</td>
+                    <td>Naruto</td>
+                </div>
+            </tr>
+            <tr>
+                <td class="namF">Larissa</td>
+                <div class="film">
+                    <td>Jojo</td>
+                    <td>OnePirce</td>
+                    <td>A culpa</td>
+                </div>
+            </tr>
+            <tr>
+                <th class="sexM" rowspan="3" scope="rowgroup">Homens</th>
+                <td class="namM">Lucas</td>
+                <div class="film">
+                    <td>VF</td>
+                    <td>Vingadores</td>
+                    <td>Hulk</td>
+                </div>
+            </tr>
+            <tr>
+                <td class="namM">Gustavo</td>
+                <div class="film">
+                    <td>Anarquia</td>
+                    <td>Samurai</td>
+                    <td>Titanic</td>
+                </div>
+            </tr>
+            <tr>
+                <td class="namM">Leo</td>
+                <div class="film">
+                    <td>Pesadelo</td>
+                    <td>Mortal kombat</td>
+                    <td>Mirror</td>
+                </div>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th colspan="4" scope="row">Total</th>
+            <td>1000</td>
+        </tfoot>
+    </table>
+
+    
+</body>
+</html>
