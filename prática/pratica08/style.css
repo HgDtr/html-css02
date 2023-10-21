@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(17, 17, 17);
+
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+header {
+    background: url(img/konoha-jpeg.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 700px;
+}
+
+aside {
+    display: block;
+    text-align: center;
+}
+
+aside img {
+    height: 500px;
+    margin-top: 100px;
+}
+
+aside img:hover {
+    height: 550px;
+    margin-top: 100px;
+    transform: translate(-2px, -2px);
+}
+
+nav {
+    display: inline;
+}
+
+
+#name {
+    color: white;
+    margin: 30px 0px 0px 30px;
+    padding: 0px;
+    font-weight: bold;
+
+}
+
+#menu {
+    padding: 0px;
+    margin: -23px 30px 0px 10px;
+    text-align: right;
+    font-weight: bold;
+}
+
+
+nav p {
+    color: white;
+    display: inline;
+    margin-left: 10px;
+    box-sizing: border-box;
+}
+
+nav p:hover {
+    background-color: rgb(139, 9, 0);
+    padding: 5px;
+    border-radius: 3px 3px 3px 3px;
+}
+
+#iframe {
+    position: relative;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+}
+
+iframe {
+    height: 620px;
+    width: 80vw;
+    margin-left: 30px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.span {
+    margin-left: 30px;
+}
+
+.span > #img {
+    display: inline-block;
+    
+}
+
+.span img {
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.527);
+    box-sizing: border-box;
+}
+
+.span img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.438);
+    transform: translate(-5px, -5px);
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.521);
+    transition-duration: 0.5s;
+}
+
+main { 
+    width: 100vw;
+    margin-top: 110px;
+}
+
+main p {
+    
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-align: justify;
+    width: 500px;
+    margin-top: 10px;
+    margin: auto;
+    padding: 20px;
+}
+
+#itachi > img {
+    display: flex;
+    text-align: right;
+    height: 285px;
+    margin: 10px 10px 0px 10px;
+
+}
+
+footer {
+    background-color: white;
+    width: 100vw;
+    height: 300px;
+}
+
+#sociais{
+    margin: auto;
+    padding: 0px;
+    margin: 0px;
+}
+
+#sociais > img {
+    position: relative;
+    display: inline-block;
+    padding: 0px;
+    height: 50px;
+    top: 50%;
+    left: 40%;
+}
