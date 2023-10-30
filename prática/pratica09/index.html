@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <form class="form" action="form.javascript" method="get">
+                <p>
+                    <label for="iname">Nome de usuário:</label>
+                    <input type="text" name="name" id="iname" required placeholder="Seu nome">  
+                    
+                </p>
+                
+                <p>
+                    <label for="isubname">Sobrenome:</label>
+                    <input type="text" name="subname" id="isubname" required placeholder="Seu Sobrenome">
+                </p>
+
+                <p> 
+                    <label for="isenha">Senha:</label>
+                    <input type="password" name="senha" id="isenha" required min="5" placeholder="min 5 digitos">
+
+                </p>
+
+                <p>
+                    <label for="i2senha">Repita a Senha:</label>
+                    <input type="password" name="senha" id="i2senha" required min="5" placeholder="min 5 digitos">
+                </p>
+                
+                <p>
+                    <label for="iemail">Digite seu email:</label>
+                    <input type="email" name="email" id="iemail" required min="5" placeholder="exemplo@gmail.com">
+                </p>
+
+                <p>
+                    <label for="idate">Data de nascimento:</label>
+                    <input type="date" name="date" id="idate">
+                </p>
+                
+                <p>
+                    <label for="itel">Telefone:</label>
+                    <input type="number" name="tel" id="itel"required min="5" placeholder="21 xxxxx-xxxx">
+                </p>
+
+                <p>
+                    <label for="enviar"></label>
+                    <input type="submit" value="ENVIAR">
+                </p>
+
+            </form>
+        </div>
+    </main>
+    
+</body>
+</html>
