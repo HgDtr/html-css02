@@ -4,31 +4,113 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+<style>
+    *{
+        padding: 0px;
+        margin: 0px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    body {
+        background: url(a9337b23813e3579f659cf8c6dcc6b91.jpg);
+        background-repeat: no-repeat;
+    }
+
+    .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        background-color: rgba(255, 255, 255, 0.39);
+        border-radius: 5px;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.514);
+        margin: 50px;
+        height: 580px;
+        width: 500px;
+        padding: 10px;
+    }
+
+    form {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    form > p {
+        margin: 5px;
+    }
+
+
+</style>
 </head>
 <body>
-    <form action="" method="post">
-        <p>
-            <label for="inome">Nome:</label>
-            <input type="text" name="nome" id="inome">
-        </p>
-        <p>
-            <label for="iidade">Idade:</label>
-            <input type="date" name="idade" id="iidade">
-        </p>
 
-        <p>
-            <label for="icid">Cidade</label>
-            <input type="hidden" name="">
-            <option value="">Rio de Janeiro</option>
-            <option value="">São Paulo</option>
-        </p>
-        <p>
-            <label for=""></label>
-        </p>
-        <p>
-            <label for=""></label>
-        </p>
-    </form>
+    <div class="container">
+        <form action="cadastro.js" method="post">
+            <h2>FluForms</h2>
+            <p>
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" required>
+            </p>
+            <p>
+                <label for="isen">Senha:</label>
+                <input type="password" name="sen" id="" required>
+            </p>
+            <p>
+                <label for="iidade">Idade:</label>
+                <input type="date" name="idade" id="iidade">
+            </p>
+            <p>
+                <label for="iest">Estado:</label>
+                <select name="est" id="iest">
+                        <OPtion value="#" selected>Escolha</OPtion>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="ES">Espirito Santo</option>
+        
+        
+                        <option value="BA">Bahia</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="SE">Sergipe</option>
+        
+                </select>
+            <p>
+                <label for="iem">E-mail:</label>
+                <input type="email" name="em" id="iem" autocomplete="email">
+            </p>
+            <label for="ip"> O que te fez ser torcedor do Flu?</label> <br>
+            <textarea name="p" id="ip" cols="30" rows="10"></textarea>
+            <p>
+                Você já assistiu um jogo do flu no estádio? <br>
+                <label for="ires">Sim</label>
+                <input type="radio" name="res" id="ires">
+                <label for="ires">Não</label>
+                <input type="radio" name="res" id="ires">
+            </p>
+        
+            <p>
+                Torcedor trícolor, você acredita na conquista da libertadores? <br>
+                <label for="ires">Sim</label>
+                <input type="radio" name="res" id="ires">
+                <label for="ires">Sem dúvida</label>
+                <input type="radio" name="res" id="ires">
+                <label for="ires">As duas opções</label>
+                <input type="radio" name="res" id="ires">
+            </p>
+            <p>
+                <label for="ique">Quem vai assistir com você?</label>
+                <input type="text" name="que" id="ique">
+            </p>
+            <p>
+                <input type="submit" value="ENVIAR">
+                <input type="reset" value="LIMPAR">
+            </p>
+        </form>
+    </div>
     
 </body>
 </html>
