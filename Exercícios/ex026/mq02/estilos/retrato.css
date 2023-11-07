@@ -1,2 +1,7 @@
 @charset "UTF-8";
 /*confi aparelho em pé (portrait)*/
+
+body {
+    background: url(../img/imagens/cev-portrait.jpg);
+    background-position: center bottom;
+}
