@@ -20,20 +20,3 @@ h1 {
     text-shadow: 3px 3px 7px #1425ac;
     padding: 10px;
 }
-
-@media and (orientation portrait) {
-
-    body {
-        background: url(../img/imagens/cev-portrait.jpg);
-        background-position: center bottom;
-    }
-
-}
-
-@media and (orientation landscape) {
-    body {
-        background: url(../img/imagens/cev-landscape.jpg);
-        background-position: left bottom;
-        background-repeat: no-repeat;
-    }
-}
