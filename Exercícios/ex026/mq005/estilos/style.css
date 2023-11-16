@@ -54,7 +54,9 @@ i#menu-icon:hover {
 }
 
 #item a:hover {
-    background-color: rgb(189, 61, 38);
+    background-color: rgb(255, 255, 255);
+    color: tomato;
+    font-weight: bold;
 }
 
 main {
