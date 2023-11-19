@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image: url(../img/header-nx.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    margin: 0px;
+    padding: 0px;
+    background-size: cover;
+    width: 100vw;
+    height: 400px;
+}
+
+menu {
+    background-color: rgb(255, 255, 255);
+    background-position: left bottom;
+    width: 100vw;
+    height: 40px;
+}
+
+#fundo {
+    background: url(../img/fundo-desktop.jpg);
+    width: 100vw;
+    height: 100vh;
+}
